@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'  // Versão do plugin Android Gradle que pode ser necessária para o SDK 34
+        classpath 'com.google.gms:google-services:4.4.2'// Plugin para Firebase
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0"  // Adiciona o plugin do Kotlin
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,52 @@
+plugins {
+    id "com.android.application"
+    id "com.google.gms.google-services"       // Plugin do Google Services para Firebase
+    id "kotlin-android"                       // Plugin Kotlin para Android
+    id "org.jetbrains.kotlin.android"         // Plugin Kotlin padrão recomendado
+    id "dev.flutter.flutter-gradle-plugin"    // Plugin do Flutter
+}
+
+android {
+    namespace "com.example.easemind_trabalho_final"
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.example.easemind_trabalho_final"
+        minSdkVersion 23
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    buildFeatures {
+        buildConfig true   // Ativa o BuildConfig para campos personalizados
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:33.6.0')   // Firebase BoM para gerir versões
+
+    // Dependências do Firebase
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // Dependências adicionais (se necessário)
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.0'            // Biblioteca padrão do Kotlin
+}
+
+apply plugin: 'com.google.gms.google-services'
