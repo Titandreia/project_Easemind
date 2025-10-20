@@ -1,7 +1,7 @@
 # 🧠 EaseMind – Ajuda à Distância  
 
 Aplicação móvel para **apoio psicológico à distância**, desenvolvida no âmbito da unidade curricular **Programação de Dispositivos Móveis (PDM)**,  
-da **Licenciatura em Engenharia Biomédica** do **Instituto Superior de Engenharia de Coimbra (ISEC)**.
+da **Licenciatura em Engenharia Biomédica**.
 
 ---
 
@@ -15,6 +15,8 @@ A aplicação pretende **eliminar barreiras emocionais e logísticas** que dific
 - 👥 **Consultas presenciais**, sugeridas com base na localização do paciente.
 
 A EaseMind foi desenhada para **acolher especialmente pessoas mais reservadas**, que possam sentir desconforto em pedir ajuda diretamente, disponibilizando uma plataforma intuitiva, empática e inclusiva.
+
+<img width="200" height="796" alt="image" src="https://github.com/user-attachments/assets/efdfa7e1-7203-4e89-9fa9-a9199ea41c21" />
 
 ---
 
@@ -79,10 +81,18 @@ O design foi concebido para **todos os tipos de utilizadores**, integrando:
 ## 🎨 Design e Experiência do Utilizador  
 
 O protótipo da **EaseMind** foi concebido com base em princípios de **usabilidade, psicologia cognitiva e design emocional**, garantindo uma navegação fluida e intuitiva.
+--
+<img width="500" height="1355" alt="image" src="https://github.com/user-attachments/assets/d718847d-8815-4c58-813b-84a6ec7b75c4" />
+
+
 
 ### Paleta de Cores  
 - **Tons de verde:** transmitem equilíbrio, harmonia e segurança;  
-- **Tons de azul-claro:** evocam serenidade, confiança e relaxamento.  
+- **Tons de azul-claro:** evocam serenidade, confiança e relaxamento.
+
+#
+  <img width="200" height="368" alt="image" src="https://github.com/user-attachments/assets/0f4e925c-a15f-48c0-8408-aa9b6dad47dc" />
+
 
 Esta combinação cria um ambiente **acolhedor, profissional e tranquilizador**, ideal para o contexto psicológico.
 
